@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-06</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/c6d3a6dc9f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </label>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+               
+                <li>
+                  <a>Parent</a>
+                 
+                </li>
+              
+              </ul>
+            </div>
+            <img src="image/Logo.png" alt="">
+         
+          </div>
+          <div class=" show-container navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              
+              <li tabindex="0">
+                <a onclick="showClick()" class="btn text-center py-4">Sort by view</a>
+               
+              </li>
+             
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <!-- <a onclick="window.location.href.https://forum.freecodecamp.org/t/onclick-new-window/497570" class="">Blog</a> -->
+            <button class="btn active:bg-red-500" onClick="window.location.href='http://127.0.0.1:5500/Qus.html';"> 
+              <span class="icon">Blog</span>
+         </button>
+          </div>
+        </div>
+      </nav>
+      <hr>
+      <div class="tab-container w-full">
+        <div
+          class="tabs tabs p-5  m-auto text-center flex justify-center gap-2"
+          id="tab-container"
+        >
+        <!-- <button class="btn btn-neutral ">Primary</button>
+        <button class="btn btn-neutral ">Primary</button>
+        <button class="btn btn-neutral ">Primary</button>
+        <button id="click-container" class="btn btn-neutral ">Primary</button> -->
+      
+       
+        </div>
+      </div>
+     <div id="drowinng-button" class="drowinng-button hidden">
+      <!-- <p>No data Found</p>
+      <img src="image/Icon.png" alt=""> -->
+     </div>
+    </header>
+    
+    <main class="conatiner mx-auto">
+      <div id="card-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- <div class="card w-96 bg-base-100 shadow-xl">
+          <figure>
+            <img
+              src="https://i.ibb.co/M23fhxm/unsplash-Eh-Tc-C9s-YXsw.png"
+              alt="Shoes"
+            />
+          </figure>
+           ​​​<p id="timeConvart" class="justify-end absolute ml-[300px] pt-[200px] text-red-500">${news.others.posted_date}</p>
+          <div class="card-footer flex justify-between mt-8">
+            <div class="flex">
+              <div>
+                <div class="avatar online">
+                  <div class="w-14 rounded-full">
+                    <img
+                      src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h6>Jimmy Dane</h6>
+               
+              </div>
+            </div>
+        </div>
+        <div class="px-[60px]">
+          <p>Awlad Hossain</p>
+        </div>
+      </div> -->
+      <div class="click-Container">
+
+      </div>
+
+    </main>
+     <script src="js/script.js"></script>
+</body>
+</html>
